@@ -6,7 +6,7 @@ from pydantic import BaseModel, field_validator
 from sqlmodel import select
 import re
 
-from .models import String, SessionDep, create_db_and_tables
+from models import String, SessionDep, create_db_and_tables
 
 app = FastAPI()
 
